@@ -24,7 +24,7 @@ public class HelloController {
     protected void onLogInClick() throws IOException {
 
         Parent root = FXMLLoader.load(getClass().getResource("welcome.fxml"));
-        pnMain.getScene().getStylesheets().add(getClass().getResource("hello.css").toExternalForm());
+        //pnMain.getScene().getStylesheets().add(getClass().getResource("hello.css").toExternalForm());
         pnMain.getChildren().remove(pnLogin);
         pnMain.getChildren().add(root);
     }
@@ -33,7 +33,7 @@ public class HelloController {
     protected void onLogOutClick() throws IOException {
 
         Parent root = FXMLLoader.load(getClass().getResource("hello.fxml"));
-        pnAnchor.getScene().getStylesheets().add(getClass().getResource("hello.css").toExternalForm());
+        //pnAnchor.getScene().getStylesheets().add(getClass().getResource("hello.css").toExternalForm());
         pnAnchor.getChildren().remove(pnHome);
         pnAnchor.getChildren().add(root);
     }
