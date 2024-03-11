@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pnAnchor" prefHeight="279.0" prefWidth="237.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.firstjavafx.HelloController">
+   <children>
+      <VBox fx:id="pnHome" layoutX="14.0" layoutY="24.0" prefHeight="200.0" prefWidth="212.0">
+         <children>
+            <Label maxWidth="65.0" prefHeight="25.0" prefWidth="54.0" text="Welcome">
+               <VBox.margin>
+                  <Insets left="70.0" top="30.0" />
+               </VBox.margin></Label>
+            <Button fx:id="logoutbtn" mnemonicParsing="false" onAction="#onLogOutClick" text="Logout">
+               <VBox.margin>
+                  <Insets left="70.0" top="100.0" />
+               </VBox.margin></Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
